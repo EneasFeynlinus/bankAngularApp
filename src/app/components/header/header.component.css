@@ -11,3 +11,32 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+.search-box {
+    background-color: #F0F0F0;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #9c9c9c;
+    width: 711px;
+    height: 44px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: start;
+    align-items:  center;
+}
+
+.search-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-box-input {
+    width: 680px;
+    height: 44px;
+    font-size: 14px;
+    padding-left: 30px;
+    outline: none;
+    background-color: transparent;
+    z-index: 3;
+}
